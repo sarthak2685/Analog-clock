@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(rgb(49, 236, 233),rgb(184, 195, 184));
+}
+#classconatiner{
+    position:relative;
+    background-color: aqua;
+    height: 47vw;
+    width: 45vw;
+    top: 4vw;
+    left: 26vw;
+    background: url(sss.png) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 8px;
+    transform-origin: bottom;
+}
+#hour{
+    top: 13%;
+    width: 3%;
+    height: 35%;
+    left: 48.3%;
+   
+}
+#minute{
+    top: 22%;
+    width: 2%;
+    height: 25%;
+    left: 48.9%;
+}
+
+#second{
+    top: 24%;
+    width: 1%;
+    height: 23%;
+    left: 49.3%;
+    
+}
